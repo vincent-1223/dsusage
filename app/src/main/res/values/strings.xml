@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DS Usage</string>
+    <string name="widget_compact_name">DeepSeek 用量 · 极简</string>
+    <string name="widget_standard_name">DeepSeek 用量 · 标准</string>
+    <string name="widget_dashboard_name">DeepSeek 用量 · 仪表</string>
+    <string name="widget_compact_description">余额与今日消费</string>
+    <string name="widget_standard_description">余额、今日消费、请求与趋势</string>
+    <string name="widget_dashboard_description">完整用量仪表盘</string>
+</resources>
+

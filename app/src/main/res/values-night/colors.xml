@@ -1,0 +1,22 @@
+<resources>
+    <color name="deepseek_blue">#7288FF</color>
+    <color name="deepseek_blue_soft">#252C4C</color>
+    <color name="ink">#F4F5F8</color>
+    <color name="ink_secondary">#A6ABB5</color>
+    <color name="ink_tertiary">#777D88</color>
+    <color name="page_background">#121419</color>
+    <color name="surface">#202329</color>
+    <color name="surface_secondary">#292D35</color>
+    <color name="surface_tertiary">#343944</color>
+    <color name="line">#343943</color>
+    <color name="positive">#6ED5A1</color>
+    <color name="warning">#F0B56E</color>
+    <color name="danger">#FF8E8A</color>
+    <color name="widget_surface">#202329</color>
+    <color name="widget_surface_secondary">#2A2E36</color>
+    <color name="widget_text">#F4F5F8</color>
+    <color name="widget_text_secondary">#A6ABB5</color>
+    <color name="widget_positive">#6ED5A1</color>
+    <color name="widget_warning">#F0B56E</color>
+</resources>
+

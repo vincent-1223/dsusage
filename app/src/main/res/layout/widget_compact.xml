@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:background="@drawable/widget_logo_background"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="DS"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-medium"
+            android:text="用量"
+            android:textColor="@color/widget_text"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/compact_refresh"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/widget_refresh_background"
+            android:clickable="true"
+            android:contentDescription="刷新"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="↻"
+            android:textColor="@color/widget_text_secondary"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:includeFontPadding="false"
+        android:text="可用余额"
+        android:textColor="@color/widget_text_secondary"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/compact_balance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:includeFontPadding="false"
+        android:letterSpacing="-0.04"
+        android:maxLines="1"
+        android:text="--"
+        android:textColor="@color/widget_text"
+        android:textSize="27sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/compact_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="等待登录"
+                android:textColor="@color/widget_positive"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/compact_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="sans-serif-medium"
+                android:includeFontPadding="false"
+                android:text="今日 --"
+                android:textColor="@color/widget_text"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/compact_spark"
+            android:layout_width="66dp"
+            android:layout_height="24dp"
+            android:contentDescription="最近用量趋势"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+</LinearLayout>
+
