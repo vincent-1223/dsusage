@@ -23,6 +23,9 @@ jobs:
 
       - uses: gradle/actions/setup-gradle@v4
 
+      - name: Make Gradle wrapper executable
+        run: chmod +x gradlew
+
       - name: Build and test
         run: ./gradlew testDebugUnitTest assembleRelease --stacktrace
 
