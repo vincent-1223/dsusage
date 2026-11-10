@@ -23,6 +23,7 @@ import com.dsusage.app.data.SecureTokenStore
 import com.dsusage.app.network.SessionExpiredException
 import com.dsusage.app.sync.UsageSyncManager
 import com.dsusage.app.sync.UsageSyncScheduler
+import com.dsusage.app.ui.WindowsInsets
 import com.dsusage.app.widget.UsageWidgetUpdater
 import com.google.android.material.button.MaterialButton
 import kotlinx.coroutines.launch
@@ -47,7 +48,9 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        WindowsInsets.configure(this)
         setContentView(R.layout.activity_login)
+        WindowsInsets.applySystemBarPadding(findViewById(R.id.login_root))
         webView = findViewById(R.id.login_webview)
         progress = findViewById(R.id.login_progress)
         stateText = findViewById(R.id.login_state)

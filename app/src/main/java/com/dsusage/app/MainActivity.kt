@@ -19,6 +19,7 @@ import com.dsusage.app.data.UsageStore
 import com.dsusage.app.sync.UsageSyncManager
 import com.dsusage.app.sync.UsageSyncScheduler
 import com.dsusage.app.ui.UsageTrendView
+import com.dsusage.app.ui.WindowsInsets
 import com.dsusage.app.util.Formatters
 import com.dsusage.app.widget.CompactUsageWidgetProvider
 import com.dsusage.app.widget.DashboardUsageWidgetProvider
@@ -60,7 +61,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        WindowsInsets.configure(this)
         setContentView(R.layout.activity_main)
+        WindowsInsets.applySystemBarPadding(findViewById(R.id.main_scroll))
         tokenStore = SecureTokenStore(this)
         usageStore = UsageStore(this)
 
