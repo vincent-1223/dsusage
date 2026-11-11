@@ -28,7 +28,7 @@
 
 ## 安装
 
-从 [Releases](https://github.com/vincent-1223/dsusage/releases/latest) 下载最新 `dsusage-v1.0.3.apk`，在 Android 8.0 及以上设备安装。
+从 [Releases](https://github.com/vincent-1223/dsusage/releases/latest) 下载最新 `dsusage-v1.0.4.apk`，在 Android 8.0 及以上设备安装。
 
 首次打开：
 
