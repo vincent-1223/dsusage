@@ -1,6 +1,7 @@
 <resources>
     <color name="deepseek_blue">#4D6BFE</color>
     <color name="deepseek_blue_soft">#E9EDFF</color>
+    <color name="ic_launcher_background">#084692</color>
     <color name="ink">#17191F</color>
     <color name="ink_secondary">#727780</color>
     <color name="ink_tertiary">#9CA1AA</color>

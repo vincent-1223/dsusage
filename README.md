@@ -2,6 +2,8 @@
 
 [![Android CI](https://github.com/vincent-1223/dsusage/actions/workflows/android.yml/badge.svg)](https://github.com/vincent-1223/dsusage/actions/workflows/android.yml)
 
+<img src="docs/app-icon.png" width="88" alt="DS Usage app icon" align="right" />
+
 一个本地优先的 Android 桌面小组件，用来展示 DeepSeek 账户的余额、当日消费、API 请求次数、Tokens 和最近 7 天消费趋势。
 
 项目不包含服务器，不需要注册 DS Usage 账号，也不会上传或管理用户数据。用户在自己的设备上登录 DeepSeek，登录令牌经 Android Keystore 加密后只保存在本机。
@@ -26,7 +28,7 @@
 
 ## 安装
 
-从 [Releases](https://github.com/vincent-1223/dsusage/releases/latest) 下载最新 `dsusage-v1.0.2.apk`，在 Android 8.0 及以上设备安装。
+从 [Releases](https://github.com/vincent-1223/dsusage/releases/latest) 下载最新 `dsusage-v1.0.3.apk`，在 Android 8.0 及以上设备安装。
 
 首次打开：
 

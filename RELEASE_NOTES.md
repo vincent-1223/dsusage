@@ -1,4 +1,4 @@
-# DS Usage v1.0.2
+# DS Usage v1.0.3
 
 首个可安装版本。
 
@@ -15,10 +15,11 @@
 
 ## 安装
 
-下载 `dsusage-v1.0.2.apk` 后直接安装，需要 Android 8.0 或更高版本。
+下载 `dsusage-v1.0.3.apk` 后直接安装，需要 Android 8.0 或更高版本。
 
 ## 修复
 
+- 更新应用启动图标，并补充 Android 8+ 自适应图标和圆形遮罩版本
 - 修复 Android 15/16 全屏显示时顶栏与状态栏重叠的问题
 - 首页和 DeepSeek 登录页统一适配状态栏、刘海区域和底部导航栏 Insets
 - 修复 DeepSeek 网页端切换 `biz_data` 返回包装和 `by_api_key` 用量接口后，所有指标显示为 0 的问题
